@@ -1,24 +1,9 @@
-# README
+## Bubble Shooter API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Bubble Shooter API is deployed here: https://bubble-shooter-server.herokuapp.com/v1/scores
 
-Things you may want to cover:
+There are two methods available on this url:
+1. GET: gets the top 10 high scores
+2. POST: stores a new score in the database
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+All made with Ruby On Rails.
