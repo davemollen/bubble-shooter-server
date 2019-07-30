@@ -6,8 +6,10 @@ class V1::ScoresController < ApplicationController
   end
 
   def create
-    @score = Score.create!(score_params)
-    render json: @score, status: :created
+    if Score.create!(score_params)
+      @scores = Score.order(high_score: :DESC).limit(10)
+      render json: @scores, status: :created
+    end
   end
 
   private
