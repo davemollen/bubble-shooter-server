@@ -1,6 +1,6 @@
 class V1::ScoresController < ApplicationController
   def index
-    @scores = Score.order(high_score: :DESC).limit(10)
+    @scores = Score.order(high_score: :DESC).limit(5)
 
     render json: @scores, status: :ok
   end
