@@ -4,4 +4,4 @@ The Bubble Shooter API made with Ruby On Rails is deployed here: https://bubble-
 
 There are two methods available on this url:
 1. GET: gets the top 10 high scores
-2. POST: stores a new score in the database and returns the new top 10 high scores
+2. POST: stores a new score in the database and sends the new top 10 high scores as a response
